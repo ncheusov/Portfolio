@@ -12,6 +12,8 @@
         grid-row: 1/3;
         img {
             width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     &__descr {
@@ -27,7 +29,6 @@
     }
     &__text {
         margin-top: 20px;
-        font-weight: 500;
         font-size: 14px;
         line-height: 21px;
     }
