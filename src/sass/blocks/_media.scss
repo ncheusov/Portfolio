@@ -66,10 +66,18 @@
     }
 }
 
-
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+    .promo {
+        &__link {
+            transition: none;
+            &:hover {
+                color: #fff;
+                transform: none;
+            }
+        }
     }
     .title {
         &_fz36 {
@@ -122,6 +130,9 @@
     }
     .contacts {
         &__wrapper {
+            padding: 0;
+        }
+        &__wrapper {
             grid-template-columns: 300px 400px;
         }
         &__form {
@@ -130,6 +141,10 @@
         &__btn {
             padding: 8px 25px;
             line-height: 16px;
+            transition: none;
+            &:hover {
+                transform: none;
+            }
         }
     }
 }
@@ -145,13 +160,18 @@
     }
     .promo {
         background: url('../img/main_bg.jpg') no-repeat 20%/cover;
-        padding-top: 210px;
+        padding-top: 205px;
         &__btns {
             margin-top: 30px;
         }
         &__title {
             line-height: 39px;
             width: 300px;
+        }
+        &__link {
+            &:hover {
+                color: #fff;
+            }
         }
     }
     .about {
@@ -222,6 +242,12 @@
             grid-template: 45px 190px 45px / repeat(2, 250px);
         }
     }
+    .btn {
+        transition: none;
+        &:hover {
+            transform: none;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -248,10 +274,15 @@
         }
     }
     .promo {
-        background: url('../img/main_bg.jpg') no-repeat 20%/cover;
-        padding-top: 210px;
+        background: url('../img/main_bg.jpg') no-repeat 30%/cover;
+        padding-top: 205px;
         &__btns {
             margin-top: 30px;
+        }
+        &__link {
+            &:hover {
+                color: #fff;
+            }
         }
     }
     .about {
@@ -306,7 +337,13 @@
             line-height: 18px;
         }
     }
-
+    .btn {
+        transition: none;
+        color: #212529;
+        &:hover {
+            transform: none;
+        }
+    }
 }
 
 
