@@ -1,0 +1,1 @@
+I created this portfolio so that you can get to know me better. Here I have collected all the information about what I did and what I am currently doing, as well as to show you the projects I completed during my studies. Hope you like it
